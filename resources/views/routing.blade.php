@@ -13,11 +13,7 @@
 
         <div class="list-group list-group-numbered mt-4">
             {{-- Kode anda selanjutnya letakkan di sini --}}
-        </div>
-
-        {{-- Khusus kode program untuk Route Groups di sini --}}
-    </div>
-    {{-- cloningan bootstrap --}}
+            {{-- cloningan bootstrap --}}
     <a href="{{ url('/cloneBootstrap') }}" class="list-group-item list-group-item-action">
         Clone Botstrap
     </a>
@@ -57,8 +53,10 @@
         Fallback Routes
     </a>
 
+        </div>
 
-<h6 class="mt-4">Route Groups (Route Prefixes & Route Name Prefixes)</h6>
+        {{-- Khusus kode program untuk Route Groups di sini --}}
+        <h6 class="mt-4">Route Groups (Route Prefixes & Route Name Prefixes)</h6>
 <div class="list-group list-group-numbered mt-4">
     <a href="{{ route('admin.dashboard') }}" class="list-group-item list-group-item-action">
         Admin Dashboard
@@ -70,6 +68,7 @@
         Admin Items
     </a>
 </div>
+
 
 
 </body>
